@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message addMsg{
+    int32 a = 1;
+    int32 b = 2;
+}
+
+message imageMsg{
+    bytes img = 1;
+}
+
+message addMsgReturn{
+    int32 ans = 1;
+}
+
+message imageMsgReturn{
+    int32 width = 1;
+    int32 height = 2;
+}
+
+service add{
+    rpc add(addMsg) returns (addMsgReturn) {}
+}
+
+service image{
+    rpc image(imageMsg) returns (imageMsgReturn) {}
+}
+
