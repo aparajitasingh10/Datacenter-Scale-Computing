@@ -1,0 +1,17 @@
+##
+## You provide this
+##
+
+FROM dirkcgrunwald/facerec:latest
+
+RUN pip3 install pika jsonpickle
+
+WORKDIR /srv
+
+COPY logs.py /srv
+
+## ENV FLASK_APP=rest-server.py
+
+EXPOSE 5002
+
+CMD ["python3", "logs.py"]
