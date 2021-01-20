@@ -1,8 +1,6 @@
 # lab7-solution-facerec-kube
 Name: Aparajita Singh
 
-Collaborator: Amit Baran Roy
-
 Automatic face recognition recognition service implemented using kubernetes.
 
 ## Overview
