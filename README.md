@@ -2,4 +2,4 @@
 
 CSCI 5253 Datacenter Scale Computing
 
-This respository contains assignments completed during the above course.
+This repository contains assignments completed during the above course.
